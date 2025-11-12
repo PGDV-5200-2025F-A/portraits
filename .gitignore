@@ -1,0 +1,11 @@
+.DS_S*
+*.py.*
+*.pyc
+*.pyc.*
+*.yml.*
+*.yaml.*
+__pycache__/
+gradio_cached_examples/
+.gradio/
+.ipynb_checkpoints/
+lbfmodel.yaml

@@ -1,10 +1,10 @@
 {
-  "image": "ghcr.io/psam-5020-2025f-a/5020-utils:ml",
+  "image": "ghcr.io/psam-5020-2025f-a/5020-utils:nn",
   "hostRequirements": {
     "cpus": 2
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "python3 -m pip install ultralytics huggingface-hub",
+  "updateContentCommand": "python3 -m pip install ultralytics huggingface-hub opencv-python-headless opencv-contrib-python-headless",
   "customizations": {
     "codespaces": { "openFiles": [] },
     "vscode": {
